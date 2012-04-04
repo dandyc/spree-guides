@@ -14,7 +14,7 @@ In order to deploy your application to the standard Deployment Service configura
 <ruby>
 group :production do
   gem 'unicorn'
-  gem 'mysql2'
+  gem 'mysql2', '~> 0.3.6'
   gem 'foreman'
   gem 'therubyracer' #only required for 0.70.x or later
 end
